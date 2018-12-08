@@ -1,47 +1,36 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class HomeGrid : MonoBehaviour {
 
-	public GameObject space;
-	public List<GameObject> grid;
+	public List<PlantSpace> grid;
 	public int n; //grid size
  
 	// Use this for initialization
 	void Start () {
-		n = 3;
-		grid = new List<GameObject> ();
-
-		CreateGrid();
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		CheckGrid ();
+		grid = new List<PlantSpace> ();
+        PopulateGrid();
 	}
 
-	void CreateGrid()
-	{
-		//place grids down;
+    private void PopulateGrid() {
+        foreach (Transform t in transform) {
+            if (t.GetComponent<PlantSpace>()) {
+                grid.Add(t.GetComponent<PlantSpace>());
+            }
+        }
+    }
+    
+    public PlantSpace GetPlantSpaceAtPosition(Vector3 position) {
+        int x = Mathf.RoundToInt(position.x);
+        int y = Mathf.RoundToInt(position.y);
+        if (x >= 0 && x <= 9 && y >= 0 && y <= 9) {
+            return grid[x + (y * 10)];
+        }
+        return null;
+    }
 
-		for (int i = 0; i < (n*n); i++) 
-		{
-			GameObject plant_space;
-			plant_space = Instantiate (space);
-			grid.Add(plant_space);
-		}
-
-	}
-
-	void PlaceInGrid()
-	{
-		
-	}
-
-	void CheckGrid()
-	{
+	void CheckGrid() {
 		int tally = 0;
 		for (int i = 0; i < grid.Count; i++) 
 		{

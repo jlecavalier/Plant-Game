@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +6,11 @@ public class PlantSpace : MonoBehaviour {
 
 	public bool isOccupied;
 	public static Vector2 spacePosition;
+    public Plant _plant;
+    public Plant CurrentPlant {
+        get { return _plant; }
+        set { _plant = value; }
+    }
 
 	// Use this for initialization
 	void Start () {
@@ -19,11 +24,6 @@ public class PlantSpace : MonoBehaviour {
 
 	public bool getIsOccupied()
 	{
-		return isOccupied;
-	}
-
-	public void setIsOccupied(bool b)
-	{
-		isOccupied = b;
+		return _plant != null;
 	}
 }
