@@ -26,6 +26,8 @@ public class DragAndDrop : MonoBehaviour {
     private void OnMouseUp() {
         // Snap the object to the grid position nearest to the object
         Vector3 mp = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        OnDropped(mp);
+        if (OnDropped != null) {
+            OnDropped(mp);
+        }
     }
 }

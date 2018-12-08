@@ -18,7 +18,19 @@ public class WaterPlant : MonoBehaviour {
         _dragAndDrop.OnDropped += WaterAt;
     }
 
-    private void WaterAt(Vector3 position) {
+    private void OnDisable() {
+        _dragAndDrop.OnDropped -= WaterAt;
+    }
 
+    private void WaterAt(Vector3 position) {
+        HomeGrid grid = Utils.GetHomeGrid();
+        PlantSpace ps = grid.GetPlantSpaceAtPosition(position);
+        if (ps) {
+            if (ps.CurrentPlant != null) {
+                ps.CurrentPlant.WaterPlant();
+            }
+        }
+
+        transform.position = _startPosition;
     }
 }

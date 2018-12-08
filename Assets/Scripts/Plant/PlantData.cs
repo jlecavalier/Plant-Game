@@ -43,4 +43,11 @@ public class PlantData : ScriptableObject {
         public int waterToleranceNegative = 10;
     }
     public SurvivalVariables survivalVariables;
+
+    [System.Serializable]
+    public class StartingValues {
+        public int startingWater = 50;
+        public int startingSunlight = 50;
+    }
+    public StartingValues startingValues;
 }
