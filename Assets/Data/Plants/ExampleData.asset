@@ -9,10 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbbbc497eaa5e304faaf8c18094055ca, type: 3}
-  m_Name: PlantData
+  m_Name: ExampleData
   m_EditorClassIdentifier: 
-  plantName: 
-  effectRadius: 0
+  plantName: Delphinium
   sounds:
     musicalSound: {fileID: 0}
     watering: {fileID: 0}
@@ -26,8 +25,8 @@ MonoBehaviour:
     matureWilted: {fileID: 0}
     dead: {fileID: 0}
   timingVariables:
-    secondsToMaturity: 0
-    secondsToNaturalDeath: 0
+    secondsToMaturity: 5
+    secondsToNaturalDeath: 5
   survivalVariables:
     perfectSunlightValue: 0
     sunlightTolerancePositive: 0
