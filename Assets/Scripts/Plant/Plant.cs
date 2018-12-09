@@ -33,4 +33,9 @@ public class Plant : MonoBehaviour {
         }
         _waterLevel += 5;
     }
+
+    public void ConsumeWater() {
+        _waterLevel -= 5;
+        Debug.Log(_waterLevel);
+    }
 }
