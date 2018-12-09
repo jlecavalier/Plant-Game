@@ -13,6 +13,9 @@ public class PlantData : ScriptableObject {
         public AudioClip placing;
         public AudioClip growth;
         public AudioClip maturingFlowering;
+        public AudioClip wilting;
+        public AudioClip dying;
+        public AudioClip error;
     }
     public Sounds sounds;
     

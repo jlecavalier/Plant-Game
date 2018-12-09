@@ -188,6 +188,10 @@ public class Plant : MonoBehaviour {
         } else {
             _renderer.sprite = data.sprites.matureWilted;
         }
+
+        if (_audioSource && data.sounds.wilting != null) {
+            _audioSource.PlayOneShot(data.sounds.wilting);
+        }
     }
 
     private void Heal() {
@@ -209,6 +213,9 @@ public class Plant : MonoBehaviour {
     private void Die() {
         _stageOfLife = DEAD;
         _renderer.sprite = data.sprites.dead;
+        if (_audioSource && data.sounds.dying != null) {
+            _audioSource.PlayOneShot(data.sounds.dying);
+        }
     }
 
     private bool IsInHealthyRange() {
