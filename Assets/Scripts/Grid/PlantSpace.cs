@@ -55,7 +55,7 @@ public class PlantSpace : MonoBehaviour {
             _plant.CheckHealth();
             _plant.UpdateStageOfLife();
         }
-        _isLit = Light(settings.receivesLight && settings.minLightTime <= timeOfDay && settings.maxLightTime >= timeOfDay);
+        _isLit = Light(settings.receivesLight && settings.minLightTime <= timeOfDay && settings.maxLightTime > timeOfDay);
     }
 
     private bool Light(bool turnOn) {

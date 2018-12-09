@@ -6151,6 +6151,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114026830363901976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6162,6 +6166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114031112848652438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6173,6 +6181,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114040030523442506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6184,6 +6196,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114040602971922526
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6195,6 +6211,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 6
 --- !u!114 &114058718312359358
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6206,6 +6226,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114086756798415488
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6217,6 +6241,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114093122118489134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6228,6 +6256,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114099920216327946
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6239,6 +6271,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 6
+    maxLightTime: 12
 --- !u!114 &114108899120311474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6250,6 +6286,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114110171811756264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6261,6 +6301,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 6
+    maxLightTime: 12
 --- !u!114 &114123459030434352
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6272,6 +6316,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114137088140476854
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6283,6 +6331,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114149686537268682
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6294,6 +6346,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114168405203456734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6305,6 +6361,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114188755859225306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6316,6 +6376,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 6
 --- !u!114 &114189858495448778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6327,6 +6391,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114194318458747682
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6338,6 +6406,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114207242984251140
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6349,6 +6421,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114213950687052108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6360,6 +6436,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 6
 --- !u!114 &114218224375055046
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6371,6 +6451,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114225782703856236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6382,6 +6466,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114233774638886938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6393,6 +6481,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114235485995140950
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6404,6 +6496,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 6
+    maxLightTime: 12
 --- !u!114 &114249155039491234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6415,6 +6511,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114260108829390254
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6426,6 +6526,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114264496911891104
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6437,6 +6541,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114267859619504154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6448,6 +6556,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114276961786480146
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6459,6 +6571,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114288263744350460
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6470,6 +6586,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114297589749583886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6481,6 +6601,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114298777058379128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6492,6 +6616,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 6
+    maxLightTime: 12
 --- !u!114 &114313638059092048
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6503,6 +6631,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114341441270704232
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6514,6 +6646,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114368379682090350
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6525,6 +6661,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114370523840800430
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6536,6 +6676,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 6
 --- !u!114 &114377221407522358
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6547,6 +6691,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114377698339753772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6571,6 +6719,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114387657924475464
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6582,6 +6734,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114389551405429316
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6593,6 +6749,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114395575871680372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6604,6 +6764,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114405273495840436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6615,6 +6779,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114417838051726932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6626,6 +6794,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114427043954935850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6637,6 +6809,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 6
+    maxLightTime: 12
 --- !u!114 &114429944267360230
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6648,6 +6824,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 6
+    maxLightTime: 12
 --- !u!114 &114441743414832078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6659,6 +6839,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114441821414198718
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6670,6 +6854,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114445733104420414
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6681,6 +6869,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 6
 --- !u!114 &114445806685749440
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6692,6 +6884,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114455646650259512
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6703,6 +6899,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114467759389078240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6714,6 +6914,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 6
 --- !u!114 &114480680559487840
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6725,6 +6929,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114508121693994000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6736,6 +6944,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114508309399558108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6747,6 +6959,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114510638000719596
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6758,6 +6974,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114511412330041358
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6769,6 +6989,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114564923255723724
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6780,6 +7004,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114571107529359266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6791,6 +7019,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114582284392548088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6802,6 +7034,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114584957556913074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6813,6 +7049,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 6
+    maxLightTime: 12
 --- !u!114 &114591756881393914
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6824,6 +7064,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114596427631958384
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6835,6 +7079,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114613374955432214
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6846,6 +7094,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114656428013891130
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6857,6 +7109,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114656509676912850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6868,6 +7124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114666871840845858
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6879,6 +7139,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114708699695367984
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6890,6 +7154,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114717493948191602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6901,6 +7169,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114738228058844008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6912,6 +7184,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 6
 --- !u!114 &114749116156116220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6923,6 +7199,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114780449388917148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6934,6 +7214,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114780483683648542
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6945,6 +7229,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114780593444308670
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6956,6 +7244,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114781103598034452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6967,6 +7259,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114781138345162868
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6978,6 +7274,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114782709825436272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6989,6 +7289,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114785318126122554
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7000,6 +7304,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114797469310305910
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7011,6 +7319,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 6
+    maxLightTime: 12
 --- !u!114 &114799952219345056
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7022,6 +7334,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114806893043713270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7033,6 +7349,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 6
+    maxLightTime: 12
 --- !u!114 &114819508078510094
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7044,6 +7364,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114822732634992918
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7055,6 +7379,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114825298739763754
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7066,6 +7394,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 6
 --- !u!114 &114825357779709720
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7077,6 +7409,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114843591073850520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7088,6 +7424,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114861702302423822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7099,6 +7439,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114861906810183486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7110,6 +7454,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 6
 --- !u!114 &114872716577463396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7121,6 +7469,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114882868729647764
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7132,6 +7484,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114889518087203358
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7143,6 +7499,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114906043287719260
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7154,6 +7514,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114917096232766648
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7165,6 +7529,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 6
 --- !u!114 &114928601585908318
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7176,6 +7544,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114928933434524410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7187,6 +7559,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114939040541076318
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7198,6 +7574,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114949642353511846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7209,6 +7589,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!114 &114966177394368568
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7220,6 +7604,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114988585425665450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7231,6 +7619,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 0
+    minLightTime: 0
+    maxLightTime: 0
 --- !u!114 &114992442669046702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7242,6 +7634,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 6
+    maxLightTime: 12
 --- !u!114 &114998299835971784
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7253,13 +7649,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b791d976762e04abca731bd8fcaacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    receivesLight: 1
+    minLightTime: 0
+    maxLightTime: 12
 --- !u!212 &212005939081391924
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1027918178429204}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7305,7 +7705,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1768871254291334}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7489,7 +7889,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1486806048081428}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7627,7 +8027,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1291635466766532}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7673,7 +8073,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1942628339166110}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7765,7 +8165,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1607846158545346}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8041,7 +8441,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1116492992368002}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8087,7 +8487,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1902850123032588}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8133,7 +8533,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1927809052127846}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8179,7 +8579,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1609151717054952}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8271,7 +8671,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1817601838082660}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8363,7 +8763,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1821558379884658}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8409,7 +8809,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1218344000329682}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8455,7 +8855,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1988477325745778}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8685,7 +9085,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1746185366299714}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8731,7 +9131,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1350217155468050}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8777,7 +9177,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1200098726738112}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8823,7 +9223,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1817876149741310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8915,7 +9315,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1828035500845114}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8961,7 +9361,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1683830776377698}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9007,7 +9407,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1052549528626304}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9191,7 +9591,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1260697040976594}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9283,7 +9683,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1630404348686370}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9375,7 +9775,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1043478310874310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9421,7 +9821,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1975390541837204}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9467,7 +9867,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1179158159824760}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9651,7 +10051,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1694550124804632}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9697,7 +10097,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1974384275481328}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9743,7 +10143,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1263834329077372}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9789,7 +10189,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1112970363715054}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9835,7 +10235,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1210952889376034}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9881,7 +10281,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1842175016613792}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9927,7 +10327,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1114343062736694}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10249,7 +10649,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1277081054735274}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10387,7 +10787,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1346653064715898}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10571,7 +10971,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1473095478309062}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10617,7 +11017,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1282360613371038}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10755,7 +11155,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1197012493196390}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10985,7 +11385,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1844738879578402}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11031,7 +11431,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1979561162331426}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11169,7 +11569,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1023895028379578}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11215,7 +11615,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1037913392918216}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11261,7 +11661,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1183055514755182}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11307,7 +11707,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1143213584666230}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11445,7 +11845,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1803164782086874}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11491,7 +11891,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1515077535586892}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11767,7 +12167,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1043384176671704}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11813,7 +12213,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1044238666959712}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11859,7 +12259,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1502764121034576}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11905,7 +12305,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1989711746038968}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12043,7 +12443,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1051992201917758}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12135,7 +12535,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1042027218881012}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12227,7 +12627,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1716041803891372}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12319,7 +12719,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1861058346509334}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12503,7 +12903,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1645335954703034}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12549,7 +12949,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1576289121587546}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12595,7 +12995,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1640802159185832}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12687,7 +13087,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1299415810599262}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12871,7 +13271,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1313011236850334}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12917,7 +13317,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1725512292989486}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12963,7 +13363,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1657605543931174}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13101,7 +13501,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1556797067632866}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13285,7 +13685,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1609715380388168}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13331,7 +13731,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1599625836310226}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13377,7 +13777,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1831652687926656}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13423,7 +13823,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1162834888330556}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13515,7 +13915,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1091287423075300}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13653,7 +14053,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1614395954615268}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13699,7 +14099,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1986895738329932}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13791,7 +14191,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1892023817009260}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13837,7 +14237,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1618677182008466}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13883,7 +14283,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1540805942091502}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13929,7 +14329,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1537657243280522}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13975,7 +14375,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1089686073064144}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14113,7 +14513,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1561205394700964}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14205,7 +14605,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1822646587084108}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14251,7 +14651,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1623539955086164}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14297,7 +14697,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1002604660699868}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14389,7 +14789,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1800861114681118}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14481,7 +14881,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1050380891347550}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14527,7 +14927,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1064504864310582}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14573,7 +14973,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1107324994885692}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14619,7 +15019,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1675858196984280}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14711,7 +15111,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1721340051843460}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14757,7 +15157,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1556563710603242}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15079,7 +15479,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1634231846830344}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15125,7 +15525,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1154574429518506}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15171,7 +15571,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1604972087314386}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15309,7 +15709,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1752122519906032}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15539,7 +15939,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1383226161036114}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15631,7 +16031,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1724420920519102}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15769,7 +16169,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1867215960003854}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15815,7 +16215,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1096881432743172}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15907,7 +16307,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1566441023226132}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15999,7 +16399,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1561771243141724}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -16091,7 +16491,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1967968127480034}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -16137,7 +16537,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1175109917682796}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -16229,7 +16629,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1690594977235926}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -16275,7 +16675,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1742520024442288}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -16413,7 +16813,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1378560965682438}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
