@@ -16,6 +16,10 @@ public class Clock : MonoBehaviour {
 
     private float _tickTimer;
     private float _timeOfDay;
+    public float TimeOfDay {
+        get { return _timeOfDay; }
+        set { _timeOfDay = value; }
+    }
 
     private void Start() {
         _tickTimer = Time.time;

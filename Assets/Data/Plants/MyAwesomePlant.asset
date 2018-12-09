@@ -19,11 +19,11 @@ MonoBehaviour:
     growth: {fileID: 0}
     maturingFlowering: {fileID: 0}
   sprites:
-    seedlingHealthy: {fileID: 21300000, guid: 822e7cae593422645abc779de1cec6ec, type: 3}
-    seedlingWilted: {fileID: 21300000, guid: b8cdaa86d5f7f7b459a5b0c663be8781, type: 3}
-    matureHealthy: {fileID: 21300000, guid: 58d7bb5184c2f4a48835c46f86509b14, type: 3}
-    matureWilted: {fileID: 21300000, guid: bc2dfcb8a07efde45bd4062a3854372b, type: 3}
-    dead: {fileID: 21300000, guid: 010cab2d6c915f54ebee43eeabca1d2b, type: 3}
+    seedlingHealthy: {fileID: 21300000, guid: 5ad74de5fbaee634e8289894a16ca21a, type: 3}
+    seedlingWilted: {fileID: 21300000, guid: 74078098fd333e7489ae308c7425a8c1, type: 3}
+    matureHealthy: {fileID: 21300000, guid: ef4dd9de3618dd24f9048f078a11fbe7, type: 3}
+    matureWilted: {fileID: 21300000, guid: 9378c96c314ec0342bd8b5e63977d316, type: 3}
+    dead: {fileID: 21300000, guid: 0a92f337aac261a4a975869f8266fc36, type: 3}
   timingVariables:
     ticksToMaturity: 10
     ticksToNaturalDeath: 15

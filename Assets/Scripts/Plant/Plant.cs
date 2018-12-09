@@ -55,66 +55,74 @@ public class Plant : MonoBehaviour {
     }
 
     public void ClockTick() {
-        if (_wilted) {
-            _ticksWilted += 1;
-        }
+        if (_stageOfLife != DEAD) {
+            if (_wilted) {
+                _ticksWilted += 1;
+            }
 
-        switch (_stageOfLife) {
-        case SEEDLING:
-            _ticksAsSeedling += 1;
-            break;
-        case MATURE:
-            _ticksAsMature += 1;
-            break;
-        case DEAD:
-            break;
-        default:
-            break;
+            switch (_stageOfLife) {
+            case SEEDLING:
+                _ticksAsSeedling += 1;
+                break;
+            case MATURE:
+                _ticksAsMature += 1;
+                break;
+            case DEAD:
+                break;
+            default:
+                break;
+            }
         }
     }
 
     public void ConsumeWater() {
-        _waterLevel = Mathf.Clamp(_waterLevel - 5, 0, 100);
-        //Debug.Log(_waterLevel);
+        if (_stageOfLife != DEAD) {
+            _waterLevel = Mathf.Clamp(_waterLevel - 5, 0, 100);
+            //Debug.Log(_waterLevel);
+        }
     }
 
     public void CheckHealth() {
-        if (_wilted) {
-            // Die if wilted for too long
-            if (_ticksWilted >= data.timingVariables.ticksToDeathAfterWilting) {
-                Die();
-            } else {
-                // Heal if wilted and is back in healthy range
-                if (IsInHealthyRange()) {
-                    Heal();
+        if (_stageOfLife != DEAD) {
+            if (_wilted) {
+                // Die if wilted for too long
+                if (_ticksWilted >= data.timingVariables.ticksToDeathAfterWilting) {
+                    Die();
+                } else {
+                    // Heal if wilted and is back in healthy range
+                    if (IsInHealthyRange()) {
+                        Heal();
+                    }
                 }
-            }
-        } else {
-            // Wilt if water level is wrong
-            if (_waterLevel > data.survivalVariables.waterMax || _waterLevel < data.survivalVariables.waterMin) {
-                Wilt();
+            } else {
+                // Wilt if water level is wrong
+                if (_waterLevel > data.survivalVariables.waterMax || _waterLevel < data.survivalVariables.waterMin) {
+                    Wilt();
+                }
             }
         }
     }
 
     public void UpdateStageOfLife() {
-        switch (_stageOfLife) {
-        case SEEDLING:
-            // Mature if survived as seedling for long enough.
-            if (_ticksAsSeedling >= data.timingVariables.ticksToMaturity) {
-                Mature();
+        if (_stageOfLife != DEAD) {
+            switch (_stageOfLife) {
+            case SEEDLING:
+                // Mature if survived as seedling for long enough.
+                if (_ticksAsSeedling >= data.timingVariables.ticksToMaturity) {
+                    Mature();
+                }
+                break;
+            case MATURE:
+                // Die if survived as mature for long enough.
+                if (_ticksAsMature >= data.timingVariables.ticksToNaturalDeath) {
+                    Die();
+                }
+                break;
+            case DEAD:
+                break;
+            default:
+                break;
             }
-            break;
-        case MATURE:
-            // Die if survived as mature for long enough.
-            if (_ticksAsMature >= data.timingVariables.ticksToNaturalDeath) {
-                Die();
-            }
-            break;
-        case DEAD:
-            break;
-        default:
-            break;
         }
     }
 

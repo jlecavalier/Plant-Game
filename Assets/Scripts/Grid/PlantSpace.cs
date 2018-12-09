@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlantSpace : MonoBehaviour {
     
 	public static Vector2 spacePosition;
-    public Plant _plant;
+    private Plant _plant;
     public Plant CurrentPlant {
         get { return _plant; }
         set { _plant = value; }
