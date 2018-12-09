@@ -21,7 +21,6 @@ namespace Spanner {
 
         private void OnEnable() {
             _instance = this;
-            DontDestroyOnLoad(_instance);
         }
 
         /// <summary>

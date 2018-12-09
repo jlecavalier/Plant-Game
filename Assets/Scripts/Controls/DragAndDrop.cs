@@ -10,10 +10,17 @@ public class DragAndDrop : MonoBehaviour {
     public delegate void OnDroppedHandler(Vector3 dropPosition);
     public event OnDroppedHandler OnDropped;
 
+    public delegate void OnGrabbedHandler(Vector3 mousePosition);
+    public event OnGrabbedHandler OnGrabbed;
+
     private void OnMouseDown() {
         Vector3 mp = Input.mousePosition;
         _screenPoint = Camera.main.WorldToScreenPoint(transform.position);
         _offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(mp.x, mp.y, _screenPoint.z));
+
+        if (OnGrabbed != null) {
+            OnGrabbed(Camera.main.ScreenToWorldPoint(mp));
+        }
     }
 
     private void OnMouseDrag() {

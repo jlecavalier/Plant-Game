@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Spanner;
 
 [RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(DragAndDrop))]
 public class Plant : MonoBehaviour {
 
     private const int SEEDLING = 0;
@@ -11,6 +13,7 @@ public class Plant : MonoBehaviour {
 
     public PlantData data;
     private SpriteRenderer _renderer;
+    private AudioSource _audioSource;
 
     private int _stageOfLife;
     private int _waterLevel;
@@ -22,17 +25,16 @@ public class Plant : MonoBehaviour {
     private int _ticksAsMature;
     private int _ticksWilted;
 
+    private Vector3 _startPosition;
+
     public delegate void OnPlantWasWateredHandler(Plant plant);
     public event OnPlantWasWateredHandler OnPlantWasWatered;
 
     private void Start() {
         _renderer = GetComponent<SpriteRenderer>();
-        _stageOfLife = SEEDLING;
-        _waterLevel = data.startingValues.startingWater;
-        _ticksAsSeedling = 0;
-        _ticksAsMature = 0;
-        _ticksWilted = 0;
-        _wilted = false;
+        _audioSource = GetComponent<AudioSource>();
+        _startPosition = transform.position;
+        Init();
     }
 
     private Vector3 _lastGridPosition;
@@ -47,11 +49,35 @@ public class Plant : MonoBehaviour {
         set { _hasBeenPlaced = value; }
     }
 
+    private DragAndDrop _dragAndDrop;
+
+    public void Init() {
+        _stageOfLife = SEEDLING;
+        _waterLevel = data.startingValues.startingWater;
+        _ticksAsSeedling = 0;
+        _ticksAsMature = 0;
+        _ticksWilted = 0;
+        _wilted = false;
+    }
+
+    private void OnEnable() {
+        _dragAndDrop = GetComponent<DragAndDrop>();
+        _dragAndDrop.OnGrabbed += Grab;
+    }
+
+    private void OnDisable() {
+        _dragAndDrop.OnGrabbed -= Grab;
+    }
+
     public void WaterPlant() {
         if (OnPlantWasWatered != null) {
             OnPlantWasWatered(this);
         }
         _waterLevel += 5;
+
+        if (_audioSource && data.sounds.watering != null) {
+            _audioSource.PlayOneShot(data.sounds.watering);
+        }
     }
 
     public void ClockTick() {
@@ -133,6 +159,10 @@ public class Plant : MonoBehaviour {
         } else {
             _renderer.sprite = data.sprites.matureHealthy;
         }
+
+        if (_audioSource && data.sounds.maturingFlowering != null) {
+            _audioSource.PlayOneShot(data.sounds.maturingFlowering);
+        }
     }
 
     private void Wilt() {
@@ -153,6 +183,10 @@ public class Plant : MonoBehaviour {
             } else {
                 _renderer.sprite = data.sprites.matureHealthy;
             }
+
+            if (_audioSource && data.sounds.growth != null) {
+                _audioSource.PlayOneShot(data.sounds.growth);
+            }
         }
     }
 
@@ -163,5 +197,18 @@ public class Plant : MonoBehaviour {
 
     private bool IsInHealthyRange() {
         return _waterLevel <= data.survivalVariables.waterMax && _waterLevel >= data.survivalVariables.waterMin;
+    }
+
+    private void Grab(Vector3 mousePosition) {
+        GameObject plantObject = MasterObjectPooler.Instance.Get(data.plantName);
+        if (plantObject) {
+            Plant plant = plantObject.GetComponent<Plant>();
+            plant.Init();
+            plantObject.transform.position = _startPosition;
+        }
+
+        if (_audioSource && data.sounds.musicalSound != null) {
+            _audioSource.PlayOneShot(data.sounds.musicalSound);
+        }
     }
 }

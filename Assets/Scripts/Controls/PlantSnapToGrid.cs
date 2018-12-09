@@ -9,6 +9,7 @@ public class PlantSnapToGrid : MonoBehaviour {
     private DragAndDrop _dragAndDrop;
     private Plant _plant;
     private HomeGrid _grid;
+    private AudioSource _audioSource;
 
     private void OnEnable() {
         _dragAndDrop = GetComponent<DragAndDrop>();
@@ -18,10 +19,12 @@ public class PlantSnapToGrid : MonoBehaviour {
     private void Start() {
         _plant = GetComponent<Plant>();
         _grid = Utils.GetHomeGrid();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     private void OnDisable() {
         _dragAndDrop.OnDropped -= Snap;
+        _dragAndDrop.OnGrabbed -= Snap;
     }
 
     public void Snap(Vector3 desiredPosition) {
@@ -35,29 +38,39 @@ public class PlantSnapToGrid : MonoBehaviour {
             if (_plant.HasBeenPlaced) {
                 transform.position = _plant.LastGridPosition;
             } else {
-                // TODO: Return plant to object pool. Increase number of available plants in UI, maybe?
-                Destroy(gameObject);
+                Spanner.MasterObjectPooler.Instance.Return(gameObject);
             }
         } else {
-            transform.position = targetPosition;
-
             if (_grid) {
                 // Add the plant to the grid square it was dropped on.
                 PlantSpace ps = _grid.GetPlantSpaceAtPosition(targetPosition);
                 if (ps) {
-                    ps.CurrentPlant = _plant;
-                }
-                // Remove the plant from the old grid square.
-                if (_plant.HasBeenPlaced) {
-                    PlantSpace old = _grid.GetPlantSpaceAtPosition(_plant.LastGridPosition);
-                    if (old) {
-                        old.CurrentPlant = null;
+                    if (ps.CurrentPlant == null) {
+                        transform.position = targetPosition;
+
+                        // Remove the plant from the old grid square.
+                        if (_plant.HasBeenPlaced) {
+                            PlantSpace old = _grid.GetPlantSpaceAtPosition(_plant.LastGridPosition);
+                            if (old) {
+                                old.CurrentPlant = null;
+                            }
+                        }
+
+                        _plant.HasBeenPlaced = true;
+                        _plant.LastGridPosition = targetPosition;
+                        ps.CurrentPlant = _plant;
+                        if (_audioSource && _plant.data.sounds.placing != null) {
+                            _audioSource.PlayOneShot(_plant.data.sounds.placing);
+                        }
+                    } else {
+                        if (_plant.HasBeenPlaced) {
+                            transform.position = _plant.LastGridPosition;
+                        } else {
+                            Spanner.MasterObjectPooler.Instance.Return(gameObject);
+                        }
                     }
                 }
             }
-
-            _plant.HasBeenPlaced = true;
-            _plant.LastGridPosition = targetPosition;
         }
     }
 }
