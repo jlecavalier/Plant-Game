@@ -40,6 +40,10 @@ public class PlantSnapToGrid : MonoBehaviour {
             } else {
                 Spanner.MasterObjectPooler.Instance.Return(gameObject);
             }
+
+            if (_audioSource && _plant.data.sounds.error != null) {
+                _audioSource.PlayOneShot(_plant.data.sounds.error);
+            }
         } else {
             if (_grid) {
                 // Add the plant to the grid square it was dropped on.
@@ -67,6 +71,10 @@ public class PlantSnapToGrid : MonoBehaviour {
                             transform.position = _plant.LastGridPosition;
                         } else {
                             Spanner.MasterObjectPooler.Instance.Return(gameObject);
+                        }
+
+                        if (_audioSource && _plant.data.sounds.error != null) {
+                            _audioSource.PlayOneShot(_plant.data.sounds.error);
                         }
                     }
                 }
