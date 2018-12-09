@@ -16,14 +16,13 @@ public class PlantSpace : MonoBehaviour {
 	void Start () {
 		spacePosition = gameObject.transform.position;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	public bool getIsOccupied()
 	{
 		return _plant != null;
 	}
+
+    public void ClockTick(float timeOfDay) {
+
+    }
 }
