@@ -29,10 +29,10 @@ MonoBehaviour:
     ticksToNaturalDeath: 15
     ticksToDeathAfterWilting: 5
   survivalVariables:
-    sunlightMax: 60
-    sunlightMin: 40
-    waterMax: 60
-    waterMin: 40
+    sunlightMax: 100
+    sunlightMin: 49
+    waterMax: 100
+    waterMin: 0
   startingValues:
     startingWater: 50
     startingSunlight: 50

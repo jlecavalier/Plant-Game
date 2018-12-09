@@ -17,6 +17,7 @@ public class Plant : MonoBehaviour {
 
     private int _stageOfLife;
     private int _waterLevel;
+    private int _lightLevel;
 
     private bool _wilted;
 
@@ -54,6 +55,7 @@ public class Plant : MonoBehaviour {
     public void Init() {
         _stageOfLife = SEEDLING;
         _waterLevel = data.startingValues.startingWater;
+        _lightLevel = data.startingValues.startingSunlight;
         _ticksAsSeedling = 0;
         _ticksAsMature = 0;
         _ticksWilted = 0;
@@ -103,8 +105,18 @@ public class Plant : MonoBehaviour {
 
     public void ConsumeWater() {
         if (_stageOfLife != DEAD) {
-            _waterLevel = Mathf.Clamp(_waterLevel - 5, 0, 100);
+            _waterLevel = Mathf.Clamp(_waterLevel - 1, 0, 100);
             //Debug.Log(_waterLevel);
+        }
+    }
+
+    public void UpdateLight(bool lit) {
+        if (_stageOfLife != DEAD) {
+            if (lit) {
+                _lightLevel = Mathf.Clamp(_lightLevel + 2, 0, 100);
+            } else {
+                _lightLevel = Mathf.Clamp(_lightLevel - 1, 0, 100);
+            }
         }
     }
 
@@ -123,6 +135,10 @@ public class Plant : MonoBehaviour {
             } else {
                 // Wilt if water level is wrong
                 if (_waterLevel > data.survivalVariables.waterMax || _waterLevel < data.survivalVariables.waterMin) {
+                    Wilt();
+                }
+                // Wilt if light level is wrong
+                if (_lightLevel > data.survivalVariables.sunlightMax || _lightLevel < data.survivalVariables.sunlightMin) {
                     Wilt();
                 }
             }
@@ -196,7 +212,8 @@ public class Plant : MonoBehaviour {
     }
 
     private bool IsInHealthyRange() {
-        return _waterLevel <= data.survivalVariables.waterMax && _waterLevel >= data.survivalVariables.waterMin;
+        return _waterLevel <= data.survivalVariables.waterMax && _waterLevel >= data.survivalVariables.waterMin &&
+            _lightLevel <= data.survivalVariables.sunlightMax && _lightLevel >= data.survivalVariables.sunlightMin;
     }
 
     private void Grab(Vector3 mousePosition) {

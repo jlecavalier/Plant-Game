@@ -3,6 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlantSpace : MonoBehaviour {
+
+    [System.Serializable]
+    public class Settings {
+        public bool receivesLight;
+        public float minLightTime;
+        public float maxLightTime;
+    }
+    public Settings settings;
+
+    private bool _isLit;
     
 	public static Vector2 spacePosition;
     private Plant _plant;
@@ -29,6 +39,7 @@ public class PlantSpace : MonoBehaviour {
     // Use this for initialization
     void Start () {
 		spacePosition = gameObject.transform.position;
+        _isLit = Light(settings.receivesLight && settings.minLightTime <= 0 && settings.maxLightTime >= 0);
 	}
 
 	public bool getIsOccupied()
@@ -40,8 +51,17 @@ public class PlantSpace : MonoBehaviour {
         if (_plant != null) {
             _plant.ClockTick();
             _plant.ConsumeWater();
+            _plant.UpdateLight(_isLit);
             _plant.CheckHealth();
             _plant.UpdateStageOfLife();
         }
+        _isLit = Light(settings.receivesLight && settings.minLightTime <= timeOfDay && settings.maxLightTime >= timeOfDay);
+    }
+
+    private bool Light(bool turnOn) {
+        foreach (Transform t in transform) {
+            t.gameObject.SetActive(turnOn);
+        }
+        return turnOn;
     }
 }
