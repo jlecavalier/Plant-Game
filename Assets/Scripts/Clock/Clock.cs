@@ -35,6 +35,8 @@ public class Clock : MonoBehaviour {
             if (_timeOfDay >= 24f) {
                 _timeOfDay = _timeOfDay - 24f;
             }
+			Debug.Log (_timeOfDay);
+				
             // Call the tick event if anybody's listening.
             if (Tick != null) {
                 Tick(_timeOfDay);  
