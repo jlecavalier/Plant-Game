@@ -20,6 +20,7 @@ MonoBehaviour:
     maturingFlowering: {fileID: 8300000, guid: dea40ff6eb373dd49bf7af189d301320, type: 3}
     wilting: {fileID: 8300000, guid: 904af181dd37c8041a651abbb72c8d59, type: 3}
     dying: {fileID: 8300000, guid: 016e39594559ed84c832d8886c40ce5a, type: 3}
+    error: {fileID: 8300000, guid: 8f09ac1b0715af94884d16eb123cf019, type: 3}
   sprites:
     seedlingHealthy: {fileID: 21300000, guid: 5ad74de5fbaee634e8289894a16ca21a, type: 3}
     seedlingWilted: {fileID: 21300000, guid: 74078098fd333e7489ae308c7425a8c1, type: 3}
