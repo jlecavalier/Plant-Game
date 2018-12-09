@@ -38,7 +38,10 @@ public class PlantSpace : MonoBehaviour {
 
     public void ClockTick(float timeOfDay) {
         if (_plant != null) {
+            _plant.ClockTick();
             _plant.ConsumeWater();
+            _plant.CheckHealth();
+            _plant.UpdateStageOfLife();
         }
     }
 }

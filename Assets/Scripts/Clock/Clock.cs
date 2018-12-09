@@ -20,7 +20,6 @@ public class Clock : MonoBehaviour {
     private void Start() {
         _tickTimer = Time.time;
         _timeOfDay = 0f;
-        Debug.Log(settings.tickTime);
     }
 
     private void Update() {
@@ -34,7 +33,7 @@ public class Clock : MonoBehaviour {
             }
             // Call the tick event if anybody's listening.
             if (Tick != null) {
-                Tick(_timeOfDay);    
+                Tick(_timeOfDay);  
             }
             // Reset the tick timer
             _tickTimer = Time.time;

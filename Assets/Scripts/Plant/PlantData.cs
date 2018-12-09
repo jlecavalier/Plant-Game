@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "PlantData", menuName = "PlantData")]
+[CreateAssetMenu(fileName = "MyAwesomePlant", menuName = "Plant")]
 public class PlantData : ScriptableObject {
     public string plantName = "My awesome plant";
 
@@ -28,19 +28,18 @@ public class PlantData : ScriptableObject {
 
     [System.Serializable]
     public class TimingVariables {
-        public float secondsToMaturity = 60f;
-        public float secondsToNaturalDeath = 60f;
+        public int ticksToMaturity = 10;
+        public float ticksToNaturalDeath = 15;
+        public float ticksToDeathAfterWilting = 5;
     }
     public TimingVariables timingVariables;
 
     [System.Serializable]
     public class SurvivalVariables {
-        public int perfectSunlightValue = 50;
-        public int sunlightTolerancePositive = 10;
-        public int sunlightToleranceNegative = 10;
-        public int perfectWaterValue = 50;
-        public int waterTolerancePositive = 10;
-        public int waterToleranceNegative = 10;
+        public int sunlightMax = 60;
+        public int sunlightMin = 40;
+        public int waterMax = 60;
+        public int waterMin = 40;
     }
     public SurvivalVariables survivalVariables;
 
