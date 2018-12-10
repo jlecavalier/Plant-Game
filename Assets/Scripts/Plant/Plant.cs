@@ -212,7 +212,11 @@ public class Plant : MonoBehaviour {
 
     private void Die() {
         _stageOfLife = DEAD;
-        _renderer.sprite = data.sprites.dead;
+        if (_stageOfLife == SEEDLING) {
+            _renderer.sprite = data.sprites.seedlingDead;
+        } else {
+            _renderer.sprite = data.sprites.matureDead;
+        }
         if (_audioSource && data.sounds.dying != null) {
             _audioSource.PlayOneShot(data.sounds.dying);
         }
