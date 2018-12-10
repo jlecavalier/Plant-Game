@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbbbc497eaa5e304faaf8c18094055ca, type: 3}
-  m_Name: Sunflower
+  m_Name: cactusGreen
   m_EditorClassIdentifier: 
   plantName: Sunflower
   sounds:
@@ -27,7 +27,8 @@ MonoBehaviour:
     seedlingWilted: {fileID: 21300000, guid: 74078098fd333e7489ae308c7425a8c1, type: 3}
     matureHealthy: {fileID: 21300000, guid: ef4dd9de3618dd24f9048f078a11fbe7, type: 3}
     matureWilted: {fileID: 21300000, guid: 9378c96c314ec0342bd8b5e63977d316, type: 3}
-    dead: {fileID: 21300000, guid: 0a92f337aac261a4a975869f8266fc36, type: 3}
+    seedlingDead: {fileID: 0}
+    matureDead: {fileID: 0}
   timingVariables:
     ticksToMaturity: 10
     ticksToNaturalDeath: 15
