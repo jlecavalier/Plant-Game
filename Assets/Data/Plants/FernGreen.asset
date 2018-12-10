@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbbbc497eaa5e304faaf8c18094055ca, type: 3}
+  m_Name: FernGreen
+  m_EditorClassIdentifier: 
+  plantName: FernGreen
+  sounds:
+    musicalSound: {fileID: 8300000, guid: 111be361a02cfdc43a83cfb53150e919, type: 3}
+    watering: {fileID: 8300000, guid: 848016090a582284eb66ed4dc415c622, type: 3}
+    placing: {fileID: 8300000, guid: cb6e9f6a5c48632428334bc060f8851e, type: 3}
+    growth: {fileID: 8300000, guid: bb7faaaa1da9d0e42859fc157fe6e5de, type: 3}
+    maturingFlowering: {fileID: 8300000, guid: dea40ff6eb373dd49bf7af189d301320, type: 3}
+    wilting: {fileID: 8300000, guid: 904af181dd37c8041a651abbb72c8d59, type: 3}
+    dying: {fileID: 8300000, guid: 016e39594559ed84c832d8886c40ce5a, type: 3}
+    error: {fileID: 8300000, guid: 8f09ac1b0715af94884d16eb123cf019, type: 3}
+    compost: {fileID: 8300000, guid: 3a26991018e962e4ab49b8ede9d4d567, type: 3}
+  sprites:
+    seedlingHealthy: {fileID: 21300000, guid: b1b520ea20ceb455cb76253821f993b0, type: 3}
+    seedlingWilted: {fileID: 21300000, guid: 36832b5d9f7be33478a2cb76719ec1a1, type: 3}
+    matureHealthy: {fileID: 21300000, guid: a1a6e496c238c364daaefb840c3ffa79, type: 3}
+    matureWilted: {fileID: 21300000, guid: 74d482e12f63eef4bbda72161f65d873, type: 3}
+    dead: {fileID: 21300000, guid: debc42b8eb66a354a9d6df793d3ae44a, type: 3}
+  timingVariables:
+    ticksToMaturity: 10
+    ticksToNaturalDeath: 15
+    ticksToDeathAfterWilting: 5
+  survivalVariables:
+    sunlightMax: 30
+    sunlightMin: -1
+    waterMax: 60
+    waterMin: 40
+  startingValues:
+    startingWater: 50
+    startingSunlight: 50
