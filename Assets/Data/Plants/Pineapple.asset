@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -31,13 +31,13 @@ MonoBehaviour:
     matureDead: {fileID: 21300000, guid: 50f95ed2ed6747347b43f746817ee648, type: 3}
   timingVariables:
     ticksToMaturity: 10
-    ticksToNaturalDeath: 15
-    ticksToDeathAfterWilting: 5
+    ticksToNaturalDeath: 150
+    ticksToDeathAfterWilting: 20
   survivalVariables:
-    sunlightMax: 60
+    sunlightMax: 101
     sunlightMin: 40
     waterMax: 100
-    waterMin: 70
+    waterMin: 50
   startingValues:
     startingWater: 75
     startingSunlight: 50

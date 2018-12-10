@@ -53,6 +53,7 @@ public class Plant : MonoBehaviour {
     private DragAndDrop _dragAndDrop;
 
     public void Init() {
+        _renderer.sprite = data.sprites.seedlingHealthy;
         _stageOfLife = SEEDLING;
         _waterLevel = data.startingValues.startingWater;
         _lightLevel = data.startingValues.startingSunlight;
