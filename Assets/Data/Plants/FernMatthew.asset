@@ -11,33 +11,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbbbc497eaa5e304faaf8c18094055ca, type: 3}
   m_Name: FernMatthew
   m_EditorClassIdentifier: 
-  plantName: My awesome plant
+  plantName: Matthew Fern
   sounds:
-    musicalSound: {fileID: 0}
-    watering: {fileID: 0}
-    placing: {fileID: 0}
-    growth: {fileID: 0}
-    maturingFlowering: {fileID: 0}
-    wilting: {fileID: 0}
-    dying: {fileID: 0}
-    error: {fileID: 0}
-    compost: {fileID: 0}
+    musicalSound: {fileID: 8300000, guid: 111be361a02cfdc43a83cfb53150e919, type: 3}
+    watering: {fileID: 8300000, guid: 848016090a582284eb66ed4dc415c622, type: 3}
+    placing: {fileID: 8300000, guid: cb6e9f6a5c48632428334bc060f8851e, type: 3}
+    growth: {fileID: 8300000, guid: bb7faaaa1da9d0e42859fc157fe6e5de, type: 3}
+    maturingFlowering: {fileID: 8300000, guid: dea40ff6eb373dd49bf7af189d301320, type: 3}
+    wilting: {fileID: 8300000, guid: 904af181dd37c8041a651abbb72c8d59, type: 3}
+    dying: {fileID: 8300000, guid: 016e39594559ed84c832d8886c40ce5a, type: 3}
+    error: {fileID: 8300000, guid: 8f09ac1b0715af94884d16eb123cf019, type: 3}
+    compost: {fileID: 8300000, guid: 3a26991018e962e4ab49b8ede9d4d567, type: 3}
   sprites:
-    seedlingHealthy: {fileID: 0}
-    seedlingWilted: {fileID: 0}
-    matureHealthy: {fileID: 0}
-    matureWilted: {fileID: 0}
-    seedlingDead: {fileID: 0}
-    matureDead: {fileID: 0}
+    seedlingHealthy: {fileID: 21300000, guid: 91d7839801381e04389a41597b45d85e, type: 3}
+    seedlingWilted: {fileID: 21300000, guid: 1e9d29ac852fb8d49a7949b1eddd296a, type: 3}
+    matureHealthy: {fileID: 21300000, guid: 4d6b20e39da22294e83f82c7be63d52c, type: 3}
+    matureWilted: {fileID: 21300000, guid: 370050f453fc78c4197e7a18fdec61b8, type: 3}
+    seedlingDead: {fileID: 21300000, guid: 1b4763ef98150b6499a80df9ce1da913, type: 3}
+    matureDead: {fileID: 21300000, guid: 1b4763ef98150b6499a80df9ce1da913, type: 3}
   timingVariables:
-    ticksToMaturity: 10
-    ticksToNaturalDeath: 15
+    ticksToMaturity: 15
+    ticksToNaturalDeath: 30
     ticksToDeathAfterWilting: 5
   survivalVariables:
-    sunlightMax: 60
-    sunlightMin: 40
-    waterMax: 60
-    waterMin: 40
+    sunlightMax: 15
+    sunlightMin: -1
+    waterMax: 80
+    waterMin: 70
   startingValues:
-    startingWater: 50
-    startingSunlight: 50
+    startingWater: 75
+    startingSunlight: 0
