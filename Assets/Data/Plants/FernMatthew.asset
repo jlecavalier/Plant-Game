@@ -31,13 +31,13 @@ MonoBehaviour:
     matureDead: {fileID: 21300000, guid: 1b4763ef98150b6499a80df9ce1da913, type: 3}
   timingVariables:
     ticksToMaturity: 15
-    ticksToNaturalDeath: 30
+    ticksToNaturalDeath: 100
     ticksToDeathAfterWilting: 5
   survivalVariables:
-    sunlightMax: 15
+    sunlightMax: 20
     sunlightMin: -1
-    waterMax: 80
-    waterMin: 70
+    waterMax: 100
+    waterMin: 50
   startingValues:
     startingWater: 75
     startingSunlight: 0

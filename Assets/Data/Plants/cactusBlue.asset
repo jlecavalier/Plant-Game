@@ -32,11 +32,11 @@ MonoBehaviour:
   timingVariables:
     ticksToMaturity: 24
     ticksToNaturalDeath: 300
-    ticksToDeathAfterWilting: 15
+    ticksToDeathAfterWilting: 20
   survivalVariables:
     sunlightMax: 101
     sunlightMin: 50
-    waterMax: 60
+    waterMax: 80
     waterMin: 10
   startingValues:
     startingWater: 50
