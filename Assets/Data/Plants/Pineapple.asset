@@ -9,26 +9,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbbbc497eaa5e304faaf8c18094055ca, type: 3}
-  m_Name: Conifer
+  m_Name: Pineapple
   m_EditorClassIdentifier: 
-  plantName: Conifer
+  plantName: Pineapple
   sounds:
     musicalSound: {fileID: 8300000, guid: 111be361a02cfdc43a83cfb53150e919, type: 3}
     watering: {fileID: 8300000, guid: 848016090a582284eb66ed4dc415c622, type: 3}
     placing: {fileID: 8300000, guid: cb6e9f6a5c48632428334bc060f8851e, type: 3}
-    growth: {fileID: 8300000, guid: 0414e215d2aa8c24a99bd9293c239844, type: 3}
+    growth: {fileID: 8300000, guid: bb7faaaa1da9d0e42859fc157fe6e5de, type: 3}
     maturingFlowering: {fileID: 8300000, guid: 111be361a02cfdc43a83cfb53150e919, type: 3}
     wilting: {fileID: 8300000, guid: 904af181dd37c8041a651abbb72c8d59, type: 3}
     dying: {fileID: 8300000, guid: 930432fa2da41194995dae66321bc69f, type: 3}
     error: {fileID: 8300000, guid: 8f09ac1b0715af94884d16eb123cf019, type: 3}
     compost: {fileID: 8300000, guid: 3a26991018e962e4ab49b8ede9d4d567, type: 3}
   sprites:
-    seedlingHealthy: {fileID: 21300000, guid: a5b0cf06933940f47bf4ba41d39f35e9, type: 3}
-    seedlingWilted: {fileID: 21300000, guid: a5b0cf06933940f47bf4ba41d39f35e9, type: 3}
-    matureHealthy: {fileID: 21300000, guid: 9fb9b6a207182c545bd96699b952d45f, type: 3}
-    matureWilted: {fileID: 21300000, guid: 1f529eae7bc1ae247b24f981fe1067f4, type: 3}
-    seedlingDead: {fileID: 21300000, guid: a3dab93f78dab44a992cc9693c7e889c, type: 3}
-    matureDead: {fileID: 21300000, guid: d2092b873bdcc7c46ba6d21c8f959b00, type: 3}
+    seedlingHealthy: {fileID: 21300000, guid: 4d72532af4ec1b94a9549267f7b113fc, type: 3}
+    seedlingWilted: {fileID: 21300000, guid: 288ac4c15fe609d42b7e1d2800e09094, type: 3}
+    matureHealthy: {fileID: 21300000, guid: cfee44d4c5b989d459eb31a50b0b8ea2, type: 3}
+    matureWilted: {fileID: 21300000, guid: 6a93375ba791d254fa805b807c653eb0, type: 3}
+    seedlingDead: {fileID: 21300000, guid: 288ac4c15fe609d42b7e1d2800e09094, type: 3}
+    matureDead: {fileID: 21300000, guid: 50f95ed2ed6747347b43f746817ee648, type: 3}
   timingVariables:
     ticksToMaturity: 10
     ticksToNaturalDeath: 15
@@ -36,8 +36,8 @@ MonoBehaviour:
   survivalVariables:
     sunlightMax: 60
     sunlightMin: 40
-    waterMax: 30
-    waterMin: 5
+    waterMax: 100
+    waterMin: 70
   startingValues:
-    startingWater: 20
+    startingWater: 75
     startingSunlight: 50

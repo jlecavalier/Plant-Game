@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -27,7 +27,8 @@ MonoBehaviour:
     seedlingWilted: {fileID: 21300000, guid: 74078098fd333e7489ae308c7425a8c1, type: 3}
     matureHealthy: {fileID: 21300000, guid: ef4dd9de3618dd24f9048f078a11fbe7, type: 3}
     matureWilted: {fileID: 21300000, guid: 9378c96c314ec0342bd8b5e63977d316, type: 3}
-    dead: {fileID: 21300000, guid: 0a92f337aac261a4a975869f8266fc36, type: 3}
+    seedlingDead: {fileID: 21300000, guid: 0a92f337aac261a4a975869f8266fc36, type: 3}
+    matureDead: {fileID: 21300000, guid: 0a92f337aac261a4a975869f8266fc36, type: 3}
   timingVariables:
     ticksToMaturity: 10
     ticksToNaturalDeath: 15
