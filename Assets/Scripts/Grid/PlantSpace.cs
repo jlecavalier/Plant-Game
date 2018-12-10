@@ -51,13 +51,17 @@ public class PlantSpace : MonoBehaviour {
         if (_plant != null) {
             _plant.ClockTick();
             _plant.ConsumeWater();
-            _plant.UpdateLight(_isLit);
+            if (timeOfDay < 12) {
+                _plant.UpdateLight(_isLit);
+            }
             _plant.CheckHealth();
             _plant.UpdateStageOfLife();
         }
         // Only calculate lighting during the day
         if (timeOfDay < 12) {
             _isLit = Light(settings.receivesLight && settings.minLightTime <= timeOfDay && settings.maxLightTime > timeOfDay);
+        } else {
+            _isLit = false;
         }
     }
 

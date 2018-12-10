@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Ordinary Game Jam
-  productName: Plant Game
+  productName: Apartment Garden
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.8066038, g: 1, b: 0.9633349, a: 1}
