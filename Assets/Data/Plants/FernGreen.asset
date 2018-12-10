@@ -27,16 +27,17 @@ MonoBehaviour:
     seedlingWilted: {fileID: 21300000, guid: 36832b5d9f7be33478a2cb76719ec1a1, type: 3}
     matureHealthy: {fileID: 21300000, guid: a1a6e496c238c364daaefb840c3ffa79, type: 3}
     matureWilted: {fileID: 21300000, guid: 74d482e12f63eef4bbda72161f65d873, type: 3}
-    dead: {fileID: 21300000, guid: debc42b8eb66a354a9d6df793d3ae44a, type: 3}
+    seedlingDead: {fileID: 21300000, guid: 28ecc76c9e516473aaf2918aacd80475, type: 3}
+    matureDead: {fileID: 21300000, guid: debc42b8eb66a354a9d6df793d3ae44a, type: 3}
   timingVariables:
     ticksToMaturity: 10
     ticksToNaturalDeath: 15
     ticksToDeathAfterWilting: 5
   survivalVariables:
-    sunlightMax: 30
+    sunlightMax: 20
     sunlightMin: -1
-    waterMax: 60
-    waterMin: 40
+    waterMax: 80
+    waterMin: 70
   startingValues:
-    startingWater: 50
-    startingSunlight: 50
+    startingWater: 75
+    startingSunlight: 10
