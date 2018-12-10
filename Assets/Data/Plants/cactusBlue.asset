@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbbbc497eaa5e304faaf8c18094055ca, type: 3}
   m_Name: cactusBlue
   m_EditorClassIdentifier: 
-  plantName: cactusRed
+  plantName: cactusBlue
   sounds:
     musicalSound: {fileID: 8300000, guid: adef2889b12a80340ac4ff77e4c94e6b, type: 3}
     watering: {fileID: 8300000, guid: 848016090a582284eb66ed4dc415c622, type: 3}
