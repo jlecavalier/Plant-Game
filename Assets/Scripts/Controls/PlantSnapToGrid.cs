@@ -36,6 +36,17 @@ public class PlantSnapToGrid : MonoBehaviour {
                 if (src && _plant.data.sounds.compost != null) {
                     src.PlayOneShot(_plant.data.sounds.compost);
                 }
+
+                // Remove the plant from the old grid square.
+                if (_plant.HasBeenPlaced) {
+                    PlantSpace old = _grid.GetPlantSpaceAtPosition(_plant.LastGridPosition);
+                    if (old) {
+                        old.CurrentPlant = null;
+                    }
+                }
+
+                _plant.Init();
+
                 Spanner.MasterObjectPooler.Instance.Return(gameObject);
                 return;
             }
