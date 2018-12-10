@@ -9,34 +9,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbbbc497eaa5e304faaf8c18094055ca, type: 3}
-  m_Name: cactusGreen
+  m_Name: Sunflower
   m_EditorClassIdentifier: 
-  plantName: My awesome plant
+  plantName: Sunflower
   sounds:
-    musicalSound: {fileID: 0}
+    musicalSound: {fileID: 8300000, guid: 111be361a02cfdc43a83cfb53150e919, type: 3}
     watering: {fileID: 8300000, guid: 848016090a582284eb66ed4dc415c622, type: 3}
     placing: {fileID: 8300000, guid: cb6e9f6a5c48632428334bc060f8851e, type: 3}
     growth: {fileID: 8300000, guid: bb7faaaa1da9d0e42859fc157fe6e5de, type: 3}
-    maturingFlowering: {fileID: 8300000, guid: adef2889b12a80340ac4ff77e4c94e6b, type: 3}
-    wilting: {fileID: 8300000, guid: f1437488cac1f854895cba897baa06ea, type: 3}
-    dying: {fileID: 8300000, guid: 930432fa2da41194995dae66321bc69f, type: 3}
+    maturingFlowering: {fileID: 8300000, guid: dea40ff6eb373dd49bf7af189d301320, type: 3}
+    wilting: {fileID: 8300000, guid: 904af181dd37c8041a651abbb72c8d59, type: 3}
+    dying: {fileID: 8300000, guid: 016e39594559ed84c832d8886c40ce5a, type: 3}
     error: {fileID: 8300000, guid: 8f09ac1b0715af94884d16eb123cf019, type: 3}
     compost: {fileID: 8300000, guid: 3a26991018e962e4ab49b8ede9d4d567, type: 3}
   sprites:
-    seedlingHealthy: {fileID: 21300000, guid: feabaf6a52a514b1789276cde43260fe, type: 3}
-    seedlingWilted: {fileID: 21300000, guid: 9175b8eaf99e0454b98c582b986934bc, type: 3}
-    matureHealthy: {fileID: 21300000, guid: 9f43610075fa5e940b5b30db2a627663, type: 3}
-    matureWilted: {fileID: 21300000, guid: d49022713550f4fedb30f30f3c9e9ebe, type: 3}
-    dead: {fileID: 21300000, guid: 174780c0fec4c9a47bba0eabd526c986, type: 3}
+    seedlingHealthy: {fileID: 21300000, guid: 5ad74de5fbaee634e8289894a16ca21a, type: 3}
+    seedlingWilted: {fileID: 21300000, guid: 74078098fd333e7489ae308c7425a8c1, type: 3}
+    matureHealthy: {fileID: 21300000, guid: ef4dd9de3618dd24f9048f078a11fbe7, type: 3}
+    matureWilted: {fileID: 21300000, guid: 9378c96c314ec0342bd8b5e63977d316, type: 3}
+    dead: {fileID: 21300000, guid: 0a92f337aac261a4a975869f8266fc36, type: 3}
   timingVariables:
-    ticksToMaturity: 20
-    ticksToNaturalDeath: 500
-    ticksToDeathAfterWilting: 24
+    ticksToMaturity: 10
+    ticksToNaturalDeath: 15
+    ticksToDeathAfterWilting: 5
   survivalVariables:
-    sunlightMax: 101
-    sunlightMin: 40
-    waterMax: 60
-    waterMin: 10
+    sunlightMax: 100
+    sunlightMin: 49
+    waterMax: 100
+    waterMin: 0
   startingValues:
     startingWater: 50
     startingSunlight: 50
