@@ -16,6 +16,7 @@ public class PlantData : ScriptableObject {
         public AudioClip wilting;
         public AudioClip dying;
         public AudioClip error;
+        public AudioClip compost;
     }
     public Sounds sounds;
     

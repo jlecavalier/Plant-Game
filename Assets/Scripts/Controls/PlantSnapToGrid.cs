@@ -29,6 +29,18 @@ public class PlantSnapToGrid : MonoBehaviour {
 
     public void Snap(Vector3 desiredPosition) {
 
+        GameObject compost = GameObject.FindGameObjectWithTag("Compost");
+        if (compost) {
+            if (Vector2.Distance(desiredPosition, compost.transform.position) <= .5f) {
+                AudioSource src = compost.GetComponent<AudioSource>();
+                if (src && _plant.data.sounds.compost != null) {
+                    src.PlayOneShot(_plant.data.sounds.compost);
+                }
+                Spanner.MasterObjectPooler.Instance.Return(gameObject);
+                return;
+            }
+        }
+
         if (!_grid) {
             _grid = Utils.GetHomeGrid();
         }
