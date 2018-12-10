@@ -26,7 +26,8 @@ public class PlantData : ScriptableObject {
         public Sprite seedlingWilted;
         public Sprite matureHealthy;
         public Sprite matureWilted;
-        public Sprite dead;
+        public Sprite seedlingDead;
+        public Sprite matureDead;
     }
     public Sprites sprites;
 
