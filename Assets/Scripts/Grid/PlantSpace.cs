@@ -61,7 +61,7 @@ public class PlantSpace : MonoBehaviour {
         if (timeOfDay < 12) {
             _isLit = Light(settings.receivesLight && settings.minLightTime <= timeOfDay && settings.maxLightTime > timeOfDay);
         } else {
-            _isLit = false;
+            _isLit = Light(false);
         }
     }
 

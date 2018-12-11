@@ -24,9 +24,9 @@ MonoBehaviour:
     compost: {fileID: 8300000, guid: 3a26991018e962e4ab49b8ede9d4d567, type: 3}
   sprites:
     seedlingHealthy: {fileID: 21300000, guid: 42a44ccbf2e124666b5740d34c729e53, type: 3}
-    seedlingWilted: {fileID: 21300000, guid: 49f4a2d2ee3874c02b8d44c92c0d338a, type: 3}
-    matureHealthy: {fileID: 21300000, guid: fcbe91504e6b54b5ea5e9b69883dd66f, type: 3}
-    matureWilted: {fileID: 21300000, guid: 90694825869aa4f6681e2f23f2e79435, type: 3}
+    seedlingWilted: {fileID: 21300000, guid: c53f0c0b633e74653bd8aa67e1f5a017, type: 3}
+    matureHealthy: {fileID: 21300000, guid: a67cde526a726487daea91162cb69423, type: 3}
+    matureWilted: {fileID: 21300000, guid: 8e465040223b54a2b904f0866bbd462e, type: 3}
     seedlingDead: {fileID: 21300000, guid: 49fdf4dfe701be8458c32a8276a0f6c9, type: 3}
     matureDead: {fileID: 21300000, guid: ab27f8b5a23fd45cbbbee74f95bfa77a, type: 3}
   timingVariables:

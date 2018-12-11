@@ -53,6 +53,12 @@ public class Plant : MonoBehaviour {
     private DragAndDrop _dragAndDrop;
 
     public void Init() {
+        if (!_renderer) {
+            _renderer = GetComponent<SpriteRenderer>();
+        }
+        if (!_audioSource) {
+            _audioSource = GetComponent<AudioSource>();
+        }
         _renderer.sprite = data.sprites.seedlingHealthy;
         _stageOfLife = SEEDLING;
         _waterLevel = data.startingValues.startingWater;

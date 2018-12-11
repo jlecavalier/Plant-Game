@@ -8,7 +8,6 @@ public class CreditsButtonScript : MonoBehaviour {
 
 
 	public GameObject creditsText;
-    public GameObject titleText;
 
 	// Use this for initialization
 	void Start () {
@@ -18,12 +17,10 @@ public class CreditsButtonScript : MonoBehaviour {
 	public void ActivateText()
 	{
 		creditsText.SetActive (true);
-        titleText.SetActive(false);
 	}
 
 	public void DeactivateText()
 	{
 		creditsText.SetActive (false);
-        titleText.SetActive(true);
 	}
 }
